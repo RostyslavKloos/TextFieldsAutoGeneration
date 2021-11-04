@@ -1,7 +1,6 @@
 package com.rodev.textfieldsautogeneration
 
 import android.app.Application
-import android.util.Log
 import com.rodev.textfieldsautogeneration.utils.AppPrefManager
 import com.rodev.textfieldsautogeneration.utils.NumberGeneration
 
@@ -23,8 +22,6 @@ class Application : Application() {
     private fun generateRandomNumber(): Int {
         val numberGeneration = NumberGeneration().generateRandomInt(20)
         prefs.setRandomFieldsNumber(numberGeneration)
-        Log.e("ZAZA", "${prefs.getRandomFieldsNumber()}")
-
         return numberGeneration
     }
 }
