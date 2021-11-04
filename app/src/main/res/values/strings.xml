@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">TextFieldsAutoGeneration</string>
+    <string name="input_text">Input text</string>
+</resources>
