@@ -32,8 +32,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        Log.e("PENUS", "ZAVARI_NOSOK")
-        Log.e("PENUS", "KAKAWA")
+        Log.e("KIKI_DO_YOU_LOVE_ME", "ZAVARI_NOSOK")
+        Log.e("ZHOPUS", "SIIIIIIUUUUU")
 
         initVM()
         generateFields()
