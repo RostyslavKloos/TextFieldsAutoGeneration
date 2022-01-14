@@ -1,6 +1,7 @@
 package com.rodev.textfieldsautogeneration.ui
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.appcompat.app.AppCompatActivity
@@ -30,6 +31,9 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        Log.e("PENUS", "ZAVARI_NOSOK")
+        Log.e("PENUS", "KAKAWA")
 
         initVM()
         generateFields()
