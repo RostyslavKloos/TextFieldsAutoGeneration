@@ -35,6 +35,8 @@ class MainActivity : AppCompatActivity() {
         Log.e("KIKI_DO_YOU_LOVE_ME", "ZAVARI_NOSOK")
         Log.e("ZHOPUS", "SIIIIIIUUUUU")
 
+        // baby
+
         initVM()
         generateFields()
         setSavedValues()
