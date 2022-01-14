@@ -33,6 +33,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         Log.e("PENUS", "ZAVARI_NOSOK")
+        Log.e("PENUS", "KAKAWA")
 
         initVM()
         generateFields()
